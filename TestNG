@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Bank of Kigali Suite" annotations="JDK" parallel="none">
+
+<test name="HomePage">
+	 <classes>
+	    <class name="HomePage.HomePage"/>
+	 </classes>
+   </test>
+
+<test name="MegaMenu">
+     <classes>
+     	 <class name="MegaMenu.MegaMenu"/>
+     </classes>
+</test>
+
+<test name="OnlineBanking">
+  	 <classes>
+      	 <class name="OnlineBanking.OnlineBanking"/>
+   	</classes>
+</test>
+
+</suite>

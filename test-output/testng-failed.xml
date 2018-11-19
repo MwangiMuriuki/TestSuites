@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Bank of Kigali Suite]">
+  <test thread-count="1" name="HomePage(failed)">
+    <classes>
+      <class name="HomePage.HomePage">
+        <methods>
+          <include name="hover"/>
+          <include name="init"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- HomePage.HomePage -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+  <test thread-count="1" name="OnlineBanking(failed)">
+    <classes>
+      <class name="OnlineBanking.OnlineBanking">
+        <methods>
+          <include name="close"/>
+          <include name="apply"/>
+          <include name="accordions"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- OnlineBanking.OnlineBanking -->
+    </classes>
+  </test> <!-- OnlineBanking(failed) -->
+</suite> <!-- Failed suite [Bank of Kigali Suite] -->
